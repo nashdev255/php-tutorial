@@ -15,3 +15,4 @@
 ```
 
 ### Reference
+- [PHP: PHP マニュアル - Manual](https://www.php.net/manual/ja/index.php)
