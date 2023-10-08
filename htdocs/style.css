@@ -1,0 +1,14 @@
+* {
+  text-decoration: none;
+  margin: 0;
+}
+
+a {
+  color: black;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}

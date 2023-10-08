@@ -4,10 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>php-tutorial</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <form action="post.php" method="POST">
-    <input type="text" name="name">
+    <div class="input-form">
+      <input type="text" name="name">
+      <select>
+        <option value="男性"></option>
+        <option value="女性"></option>
+        <option value="その他"></option>
+      </select>
+      <textarea name="text" cols="30" rows="10"></textarea>
+    </div>
     <button>Submit</button>
   </form>
 </body>
