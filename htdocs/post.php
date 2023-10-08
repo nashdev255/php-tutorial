@@ -6,9 +6,9 @@
   <title>php-tutorial</title>
 </head>
 <body>
-  <form action="post.php">
-    <input type="text" name="name">
-    <button>Submit</button>
-  </form>
+  <?php
+    $name = $_POST['name'];
+    echo "<h1>{$name}</h1>";
+  ?>
 </body>
 </html>

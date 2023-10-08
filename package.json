@@ -1,0 +1,8 @@
+{
+  "name": "php-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "php -S localhost:8000 -t ./htdocs"
+  }
+}
