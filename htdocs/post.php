@@ -7,10 +7,12 @@
 </head>
 <body>
   <?php
-    user = new User();
+    $name = $_POST['name'];
+    $text = $_POST['text'];
 
-    echo "<h1>{$name}</h1>";
-    echo "<p>{$text}</p>";
+    $user = new User($name, $text);
+
+    $user->printUserData();
   ?>
 </body>
 </html>
