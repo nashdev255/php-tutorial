@@ -7,8 +7,7 @@
 </head>
 <body>
   <?php
-    $name = $_POST['name'];
-    $text = $_POST['text'];
+    user = new User();
 
     echo "<h1>{$name}</h1>";
     echo "<p>{$text}</p>";
