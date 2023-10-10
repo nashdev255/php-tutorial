@@ -7,6 +7,8 @@
 </head>
 <body>
   <?php
+    require_once('user.php');
+
     $name = $_POST['name'];
     $text = $_POST['text'];
 
