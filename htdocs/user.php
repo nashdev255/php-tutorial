@@ -1,16 +1,15 @@
 <?php
   class User {
     public $name;
-    public $text;
+    public $email;
+    public $password;
+    public $introduce;
 
-    public function __construct($name, $text) {
+    public function __construct($name, $email, $password, $introduce) {
       $this->name = $name;
-      $this->text = $text;
-    }
-
-    public function printUserData() {
-      echo "名前 : {$this->name}<br />";
-      echo "自己紹介 : {$this->text}";
+      $this->email = $email;
+      $this->password = $password;
+      $this->introduce = $introduce;
     }
   }
 ?>

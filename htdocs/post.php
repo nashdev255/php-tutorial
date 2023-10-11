@@ -10,9 +10,11 @@
     require_once('user.php');
 
     $name = $_POST['name'];
-    $text = $_POST['text'];
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+    $introduce = $_POST['introduce'];
 
-    $user = new User($name, $text);
+    $user = new User($name, $email, $password, $introduce);
 
     $user->printUserData();
   ?>
