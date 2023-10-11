@@ -16,7 +16,7 @@
 
     $user = new User($name, $email, $password, $introduce);
 
-    $user->printUserData();
+    $user->printUserProfile();
   ?>
 </body>
 </html>
